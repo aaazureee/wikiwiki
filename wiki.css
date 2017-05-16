@@ -1,0 +1,65 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    line-height: 50px;
+    /* Vertically center the text there */
+    padding-top: 2px;
+}
+
+.title {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Monospace;
+    font-size: 500%;
+}
+
+.test {
+    text-align: center;
+}
+
+.randombutton {
+    margin-top: 15px;
+    position: absolute;
+    right: 13px;
+}
+
+.searchh {
+    margin-top: 15px;
+}
+
+.lead {
+    font-size: 23px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
