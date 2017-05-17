@@ -11,6 +11,9 @@ body {
     margin-bottom: 60px;
 }
 
+#info {
+    text-align:center;
+}
 .footer {
     position: absolute;
     bottom: 0;
